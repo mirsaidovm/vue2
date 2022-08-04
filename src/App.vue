@@ -1,6 +1,9 @@
 <template>
   <Header/>
   <Notes/>
+  <a href="" class="add__note">
+    <i class="fa-solid fa-pencil"></i>
+  </a>
 </template>
 <script>
   import '@/assets/styles/main.scss'

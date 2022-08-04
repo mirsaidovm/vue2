@@ -29,4 +29,23 @@ body{
 img{
     display: block;
 }
+.add__note{
+    display: flex;
+    width: 58px;
+    height: 58px;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: linear-gradient(0deg, rgba(103, 80, 164, 0.11), rgba(103, 80, 164, 0.11)),
+    #FFFBFE;
+    box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15);
+    filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.3));
+    border-radius: 16px ;
+    &:active{
+        color: initial;
+    }            
+}
 @import 'header';
+@import 'notes';
